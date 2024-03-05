@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(79, 177, 144);
+    background-color: rgb(143, 37, 63);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{ 
+    background: rgb(85, 71, 71);
+    padding: 20px;
+    border-radius: 10px ;
+}
+input{
+border: 0;
+outline: none;
+color: rgb(244, 248, 248);
+width:60px;
+height: 60px;
+margin: 10px;
+border-radius: 10px;
+box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+background-color: transparent;
+font-size: 1.5em;
+transition: 0.5s ;
+}   
+input:active{
+color: black;
+background-color: azure;
+}
+.jj{
+    color: rgba(135, 214, 168, 0.897);
+    transition: .4s ease;
+}
+
+.jj:hover{
+    color: black;
+    background-color: white;
+}
+form .nom{
+   display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .nom input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal{
+    transition: 0.2s ease-in-out ;
+    width: 145px;
+}
+form input.equal:hover{
+    color: rgb(19, 19, 19);
+    background-color: rgb(240, 234, 234);
+}
